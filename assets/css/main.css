@@ -1,153 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @font-face {
-    font-family: 'Neuzeit Grotesk';
-    src: url('font/Neuzeit-Grotesk/NeuzeitGroExt-Bla.eot');
-    src: local('Neuzeit Grotesk Extra-condensed Black'), local('NeuzeitGroExt-Bla'), url('font/Neuzeit-Grotesk/NeuzeitGroExt-Bla.eot') format('embedded-opentype'), url('font/Neuzeit-Grotesk/NeuzeitGroExt-Bla.woff2') format('woff2'), url('font/Neuzeit-Grotesk/NeuzeitGroExt-Bla.woff') format('woff'), url('font/Neuzeit-Grotesk/NeuzeitGroExt-Bla.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neuzeit Grotesk';
-    src: url('font/Neuzeit-Grotesk/NeuzeitGro-Bla.eot');
-    src: local('Neuzeit Grotesk Black'), local('NeuzeitGro-Bla'), url('font/Neuzeit-Grotesk/NeuzeitGro-Bla.eot') format('embedded-opentype'), url('font/Neuzeit-Grotesk/NeuzeitGro-Bla.woff2') format('woff2'), url('font/Neuzeit-Grotesk/NeuzeitGro-Bla.woff') format('woff'), url('font/Neuzeit-Grotesk/NeuzeitGro-Bla.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neuzeit Grotesk';
-    src: url('font/Neuzeit-Grotesk/NeuzeitGro-Reg.eot');
-    src: local('Neuzeit Grotesk Regular'), local('NeuzeitGro-Reg'), url('font/Neuzeit-Grotesk/NeuzeitGro-Reg.eot?#iefix') format('embedded-opentype'), url('./font/Neuzeit-Grotesk/NeuzeitGro-Reg.woff2') format('woff2'), url('./font/Neuzeit-Grotesk/NeuzeitGro-Reg.woff') format('woff'), url('./font/Neuzeit-Grotesk/NeuzeitGro-Reg.ttf') format('truetype');
+    font-family: 'NeuzeitGroReg';
+    src: url('../fonts/NeuzeitGroReg.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
-
 @font-face {
-    font-family: 'Neuzeit Grotesk';
-    src: url('font/Neuzeit-Grotesk/NeuzeitGro-Lig.eot');
-    src: local('Neuzeit Grotesk Light'), local('NeuzeitGro-Lig'), url('font/Neuzeit-Grotesk/NeuzeitGro-Lig.eot?#iefix') format('embedded-opentype'), url('./font/Neuzeit-Grotesk/NeuzeitGro-Lig.woff2') format('woff2'), url('./font/Neuzeit-Grotesk/NeuzeitGro-Lig.woff') format('woff'), url('./font/Neuzeit-Grotesk/NeuzeitGro-Lig.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neuzeit Grotesk';
-    src: url('font/Neuzeit-Grotesk/NeuzeitGro-Bol.eot');
-    src: local('Neuzeit Grotesk Bold'), local('NeuzeitGro-Bol'), url('font/Neuzeit-Grotesk/NeuzeitGro-Bol.eot?#iefix') format('embedded-opentype'), url('./font/Neuzeit-Grotesk/NeuzeitGro-Bol.woff2') format('woff2'), url('./font/Neuzeit-Grotesk/NeuzeitGro-Bol.woff') format('woff'), url('./font/Neuzeit-Grotesk/NeuzeitGro-Bol.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neuzeit Grotesk';
-    src: url('font/Neuzeit-Grotesk/NeuzeitGroCon-Bla.eot');
-    src: local('Neuzeit Grotesk Condensed Black'), local('NeuzeitGroCon-Bla'), url('font/Neuzeit-Grotesk/NeuzeitGroCon-Bla.eot?#iefix') format('embedded-opentype'), url('./font/Neuzeit-Grotesk/NeuzeitGroCon-Bla.woff2') format('woff2'), url('./font/Neuzeit-Grotesk/NeuzeitGroCon-Bla.woff') format('woff'), url('./font/Neuzeit-Grotesk/NeuzeitGroCon-Bla.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineBlackItalic.woff2') format('woff2');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineMediumItalic.woff2') format('woff2');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineLight.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine Regular';
-    src: url('font/Tiempos-Fine/TiemposFineRegularItalic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineBoldItalic.woff2') format('woff2');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineBold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineMedium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineBlack.woff2') format('woff2');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineLightItalic.woff2') format('woff2');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineRegular.woff2') format('woff2');
+    font-family: 'NeuzeitGroBla';
+    src: url('../fonts/NeuzeitGroBla.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
-/* ir  */
 @font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineSemiboldItalic.woff2') format('woff2');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-/* ir  */
-@font-face {
-    font-family: 'Tiempos Fine';
-    src: url('font/Tiempos-Fine/TiemposFineSemibold.woff2') format('woff2');
-    font-weight: 600;
+    font-family: 'NeuzeitGroLig';
+    src: url('../fonts/NeuzeitGroLig.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
-    font-display: swap;
+}
+@font-face {
+    font-family: 'TiemposFineLight';
+    src: url('../fonts/TiemposFineLight.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TiemposFineBold';
+    src: url('../fonts/TiemposFineBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'NeuzeitGroReg', sans-serif;
+}
+.our-approach {
+    font-family: 'NeuzeitGroLig', sans-serif;
+}
+.heading {
+    font-family: 'NeuzeitGroBla', sans-serif;
+}
+.section-heading {
+    font-family: 'TiemposFineLight', sans-serif;
+}
+.section-highlight {
+    font-family: 'TiemposFineBold', sans-serif;
+}
+.playfair-display-main {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 html,
